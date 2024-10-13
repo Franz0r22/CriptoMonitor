@@ -16,7 +16,7 @@ export const getCryptocurrencies = async (limit: number = 10) => {
     }
 
     const data = await response.json();
-    console.log(data);
+
     return data.data;
   } catch (error) {
     console.error("Error fetching cryptocurrencies:", error);
