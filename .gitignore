@@ -1,37 +1,36 @@
-# Node modules
-node_modules/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Build output
-dist/
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
 
-# Vite cache
-.vite/
+# testing
+/coverage
 
-# Logs
-logs
-*.log
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Local environment variables
-.env
-.env.local
-.env.*.local
+# local env files
+.env*.local
 
-# IDEs and editors
-.vscode/
-.idea/
-*.sublime-workspace
-*.sublime-project
+# vercel
+.vercel
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Coverage directory used by tools like istanbul
-coverage/
-
-# Temporary files
-*.tmp
-*.temp
+# typescript
+*.tsbuildinfo
+next-env.d.ts
