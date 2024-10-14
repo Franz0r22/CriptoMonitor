@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Navigation: React.FC = () => {
   return (
     <nav className="bg-gray-800 p-4 shadow-md">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto flex justify-between items-center max-w-screen-xl">
         <Link href="/" className="text-white text-lg font-bold hover:text-gray-300">
           Criptomonitor
         </Link>
