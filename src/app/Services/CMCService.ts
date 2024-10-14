@@ -1,7 +1,7 @@
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://pro-api.coinmarketcap.com/v1';
 const apiKey = process.env.CMC_API_KEY;
 
-export const getCryptocurrencies = async (limit: number = 10) => {
+export const getCryptocurrencies = async (limit: number = 12) => {
 
   try {
     const response = await fetch(`${baseUrl}/cryptocurrency/listings/latest?limit=${limit}`, {

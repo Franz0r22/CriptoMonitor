@@ -22,6 +22,6 @@ a {
   text-decoration: none;
 }
 
-.bg-gradient-cyan {
-  background-image: linear-gradient(to right, #0f172a, #334155);
+.bg-main {
+  background-color: #111827;
 }
